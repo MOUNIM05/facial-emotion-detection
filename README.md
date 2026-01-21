@@ -92,84 +92,67 @@ emotion-detection-opencv/
 └── .gitignore
 
 
-
 ---
 
 ## ▶️ Installation & Setup
-
 ### 1️⃣ Clone the repository
-
 git clone https://github.com/USERNAME/emotion-detection-opencv.git
 cd emotion-detection-opencv
+---
 ##2️⃣ Create a virtual environment (recommended)
 bash
 Copy code
 python -m venv venv
 source venv/Scripts/activate
+---
 ##3️⃣ Install dependencies
 bash
 Copy code
 pip install -r requirements.txt
+---
 ##▶️ Run the Application
 Make sure that:
-
 Your webcam is connected
-
 No other application is using the camera
 python src/webcam.py
-
+---
 ##🧠 Emotion Detection Logic
 This version uses a heuristic-based computer vision approach:
-
 Happy → Smile detected
-
 Normal → Eyes detected without smile
-
 Sad → Face detected without smile or clear eyes
-
 A confidence percentage (%) is calculated based on:
-
 Face detection quality
-
 Eye detection reliability
-
 Smile detection consistency
-
+---
 ##📊 Example Output
 makefile
 Copy code
 Emotion: Happy 😄
 Confidence: 81%
+---
 ##🧪 Use Cases
 OpenCV practice projects
-
 Computer Vision learning
-
 AI student portfolios
-
 Real-time webcam experiments
-
 GitHub technical showcase
-
+---
 ##🚀 Future Improvements
 CNN-based emotion classifier (Deep Learning)
-
 Facial landmarks detection
-
 Emotion smoothing over time
-
 Dataset auto-training pipeline
-
 GUI interface (Tkinter / PyQt)
-
 Screenshot & logging features
-
+---
 ##👤 Author
 Abdelmounim Maani
 AI & Computer Vision Student
 Junior Python / OpenCV Developer
-
 Open to internships and junior AI / CV opportunities.
-
+---
 ##📜 License
 This project is licensed under the MIT License.
+
